@@ -1,7 +1,7 @@
 # 🛡️ Log File Intrusion Detector (LFID) – Regex Enhanced
 
 [![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: Apache 2.0 ](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
 A Python-based intrusion detection tool that scans server log files for suspicious activities using **configurable regex patterns**.  
