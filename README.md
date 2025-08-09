@@ -34,7 +34,7 @@ With **regex support**, detection patterns are now more flexible and powerful.
 
 ```plaintext
 .
-├── lfid_regex.py                 # Main detection script (regex support)
+├── lfid-code.py                  # Main detection script (regex support)
 ├── lfidconfig_regex.yaml         # Config file with regex patterns
 ├── samplelog.txt                 # Example log file
 ├── report.txt                    # Generated report output
@@ -79,7 +79,7 @@ email:
 Run from the command line:
 
 ```bash
-python lfid_regex.py --log samplelog.txt --config lfidconfig_regex.yaml
+python lfid-code.py --log samplelog.txt --config lfidconfig_regex.yaml
 ```
 
 **This will:**
@@ -142,7 +142,7 @@ You can test detection using `samplelog.txt`, which contains:
 
 ## 📜 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
